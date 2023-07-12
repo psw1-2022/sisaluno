@@ -40,9 +40,7 @@ Atributos das tabelas:
       ch varchar(3)
       semestre varchar(5)
       idprofessor smallint
-
-
-      # 2BI 
+ # 2BI 
       Aluno ->
       idaluno smallint primary key auto_increment
       nome, varchar(100)
