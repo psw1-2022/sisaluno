@@ -1,7 +1,7 @@
 # sisaluno
 Sistema de cadastro de alunos
 
-1 - Colocar layout com CSS em todas as paginas e seguir modelo disponibilizado.
+1 - Colocar layout com CSS em todas as paginas e seguir modelo disponibilizado colocando nas pastas diferentes, tudo de aluno na pasta aluno, tudo de professor na pasta professor, tudo de disciplina na pasta disciplina
 
 2 - fazer os formularios para permitir inserir, excluir e alterar professor.
 
