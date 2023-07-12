@@ -9,11 +9,11 @@ Sistema de cadastro de alunos
 
 4 - criar pagina inicial para permitir acessar as paginas de professor, aluno e disciplinas.
 
-## Dados para banco de dados:
-
-Database: sisaluno
-tabelas: Aluno, professor, disciplinas.
-Atributos das tabelas:
+# Dados para banco de dados:
+   Database: sisaluno
+   tabelas: Aluno, professor, disciplinas.
+   Atributos das tabelas:
+ 
    # 2AI
       Aluno ->
       id smallint primary key auto_increment
