@@ -14,8 +14,7 @@ Sistema de cadastro de alunos
       tabelas: Aluno, professor, disciplinas.
       
  
-   # 2AI
-      tabelas:
+   # 2AI   -   tabelas:
       Aluno ->
       id smallint primary key auto_increment
       nome, varchar(100)
@@ -41,8 +40,7 @@ Sistema de cadastro de alunos
       ch varchar(3)
       semestre varchar(5)
       idprofessor smallint
- # 2BI 
-      tabelas:
+ # 2BI   -  tabelas:
       Aluno ->
       idaluno smallint primary key auto_increment
       nome, varchar(100)
