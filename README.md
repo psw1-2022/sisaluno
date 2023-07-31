@@ -40,29 +40,33 @@ Sistema de cadastro de alunos
       ch varchar(3)
       semestre varchar(5)
       idprofessor smallint
+
  # 2BI   -  tabelas:
-      Aluno ->
-      idaluno smallint primary key auto_increment
-      nome, varchar(100)
-      idade,  smallint
-      datanascimento,  date
-      endereco varchar(100)
-       estatus   bool
-       matricula: varchar(11)
+  database:  sisalunov;
+
+create table aluno(
+idaluno smallint primary key auto_increment,
+  nome varchar(100),
+  idade  smallint,
+  datanascimento  date,
+  endereco varchar(100),
+   estatus   boolean,
+   matricula varchar(11)
+);
 
 
-      professor ->
-      idprofessor smallint primary key auto_increment
-      nomeprof, varchar(100),
-      cpf, varchar(11)
-      siape varchar(10),  smallint
-      idade smallint
+  create table professor( 
+  idprofessor smallint primary key auto_increment,
+  nomeprof varchar(100),
+  cpf varchar(11),
+  siape varchar(10),
+  idade smallint
+);
 
-
-       disciplina ->
-       iddisciplina smallint primary key auto_increment
-      disciplina varchar(80),
-      ch char(3)
-      semestre varchar(5)
-      idprofessor smallint
-          
+create table disciplina (
+   iddisciplina smallint primary key auto_increment,
+  disciplina varchar(80),
+  ch char(3),
+  semestre varchar(5),
+  idprofessor smallint
+    )          
